@@ -1,29 +1,29 @@
 <?xml version="1.0"?>
 <config>
 	<modules>
-		<Cammino_Adwords>
+		<Cammino_Facebookconversion>
 			<version>0.1.0</version>
-		</Cammino_Adwords>
+		</Cammino_Facebookconversion>
 	</modules>
 	<global>
 		<models>
-			<adwords>
-				<class>Cammino_Adwords_Model</class>
-			</adwords>
+			<facebookconversion>
+				<class>Cammino_Facebookconversion_Model</class>
+			</facebookconversion>
 		</models>
 		<blocks>
-			<adwords>
-				<class>Cammino_Adwords_Block</class>
-			</adwords>
+			<facebookconversion>
+				<class>Cammino_Facebookconversion_Block</class>
+			</facebookconversion>
 		</blocks>
 		<events>
 			<checkout_onepage_controller_success_action>
 				<observers>
-					<adwords_observer>
+					<facebookconversion_observer>
 						<type>singleton</type>
-						<class>adwords/observer</class>
+						<class>facebookconversion/observer</class>
 						<method>addTracker</method>
-					</adwords_observer>
+					</facebookconversion_observer>
 				</observers>
 			</checkout_onepage_controller_success_action>
 		</events>
