@@ -1,8 +1,8 @@
 INSTALL (for git)
 
 mkdir app/code/community/Cammino
-git submodule add git@github.com:mferracioli/magento-adwords.git app/code/community/Cammino/Adwords
-cp app/code/community/Cammino/Adwords/Cammino_Adwords.xml app/etc/modules/
+git submodule add git@github.com:mferracioli/magento-facebook-conversion.git app/code/community/Cammino/Facebookconversion
+cp app/code/community/Cammino/Adwords/Cammino_Facebookconversion.xml app/etc/modules/
 
 TODO
 
